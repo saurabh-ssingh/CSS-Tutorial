@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation menu</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            background-color: aquamarine;
+            
+
+        }
+        .navbar ul{
+            overflow: auto;
+            height: 50px;
+        }
+        .navbar li{
+            list-style: none;
+            float: left;
+            margin: 20px 20px;
+        }
+        .navbar li a{
+            padding: 20px 60px;
+            text-decoration: none;
+            color: blueviolet;
+        }
+        .navbar li a:hover{
+            color: rgb(228, 9, 9);
+        }
+        .search{
+            /* float: right; */
+            color: white;
+            padding: 20px 80px;
+
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a  href="#">Contact Us</a></li>
+            <li><a  href="#">Menotr</a></li>
+            <li><a  href="#">Robbery</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search this werbsite">
+            </div>
+        </ul>
+    </>
+</body>
+</html>

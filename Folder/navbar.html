@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        li,a,button{
+            font-family: cursive;
+            font-weight: 800;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        header{
+            border: 5px solid rgb(178, 139, 233);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10%;
+            background-color: rgb(242, 192, 239);
+        }
+        .logo{
+            cursor: pointer;
+        }
+        .nav-links{
+            list-style: none;
+        }
+        .nav-links li{
+            display: inline-block;
+            padding: 0px 40px;
+        }
+        .nav-links li a{
+            transition: all 0.3 ease 0s;
+        }
+        .nav-links li a:hover{
+            color: blueviolet;
+        }
+        button{
+            padding: 9px 25px;
+            background-color: rgb(227, 177, 225);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3 ease 0s;
+        }
+        button:hover{
+            background-color: rgb(245, 18, 233);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <img class="logo" src="" alt="logo"> -->
+        <h2 class="logo">SAURABH</h2>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Blog </a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+        <a class = "cta" href="#"><Button>Contact</Button></a>
+    </header>
+</body>
+
+</html>
